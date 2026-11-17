@@ -23,8 +23,6 @@ Whether it's your all-time favorites, recent reads, or books you keep recommendi
 ## Preview
 <img src="screenshots/home.png" alt="BookStack Homepage" width="500">
 <img src="screenshots/booksearch.png" alt="BookStack Homepage" width="500">
-![BookStack Homepage](screenshots/home.png)
-![BookStack Search ](screenshots/booksearch.png)
 
 ## Designs
 <img src="screenshots/bookstack-choice.png" width="300">
@@ -33,20 +31,6 @@ Whether it's your all-time favorites, recent reads, or books you keep recommendi
 <img src="screenshots/ereader.png" width="300">
 <img src="screenshots/bookshelf.png" width="300">
 
-### Stack Choices
-![Stack Choices](screenshots/bookstack-choice.png)
-
-### Classic Stack
-![Classic Stack](screenshots/stack.png)
-
-### Book Receipt
-![Book Receipt](screenshots/receipt.png)
-
-### E-Reader
-![E-Reader](screenshots/ereader.png)
-
-### Bookshelf
-![Bookshelf](screenshots/bookshelf.png)
 
 ## Built With
 
