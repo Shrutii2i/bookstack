@@ -1,16 +1,90 @@
-# React + Vite
+# 📚 BookStack
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**A little project for people who love books.**
 
-Currently, two official plugins are available:
+BookStack lets you pick five of your favorite books and turn them into a personalized design that you can download and share.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Whether it's your all-time favorites, recent reads, or books you keep recommending to everyone, you can put them all in one stack.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Search for books using the Open Library API
+- Select up to five books
+- Choose from four different designs
+- Download your finished stack as a PNG
 
-## Expanding the ESLint configuration
+## The Designs
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Classic Stack** — A simple stack of books
+- **Book Receipt** — Your reading list in receipt form
+- **E-Reader** — A digital reading list
+- **Bookshelf** — Your books lined up on a shelf
+
+## Preview
+<img src="screenshots/home.png" alt="BookStack Homepage" width="500">
+<img src="screenshots/booksearch.png" alt="BookStack Homepage" width="500">
+![BookStack Homepage](screenshots/home.png)
+![BookStack Search ](screenshots/booksearch.png)
+
+## Designs
+<img src="screenshots/bookstack-choice.png" width="300">
+<img src="screenshots/stack.png" width="300">
+<img src="screenshots/receipt.png" width="300">
+<img src="screenshots/ereader.png" width="300">
+<img src="screenshots/bookshelf.png" width="300">
+
+### Stack Choices
+![Stack Choices](screenshots/bookstack-choice.png)
+
+### Classic Stack
+![Classic Stack](screenshots/stack.png)
+
+### Book Receipt
+![Book Receipt](screenshots/receipt.png)
+
+### E-Reader
+![E-Reader](screenshots/ereader.png)
+
+### Bookshelf
+![Bookshelf](screenshots/bookshelf.png)
+
+## Built With
+
+- React
+- Vite
+- Tailwind CSS
+- Open Library API
+- html-to-image
+
+## Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/YOUR-USERNAME/bookstack.git
+cd bookstack
+```
+
+Install dependencies and run the project:
+
+```bash
+npm install
+npm run dev
+```
+
+## Still Working On
+
+- Random book recommendations
+- Saving selected books after refreshing
+- Improving the mobile layout
+- More design options
+
+## Why I Made This
+
+I wanted to make something fun while practicing React and working with APIs. I liked the idea of turning a simple reading list into something visual that people could share.
+
+This project helped me get more comfortable with React state, reusable components, API requests, and generating downloadable images.
+
+---
+
+*For the books you loved, the ones you couldn't finish, and the ones still sitting on your TBR.*
